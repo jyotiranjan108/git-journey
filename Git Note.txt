@@ -1,0 +1,2 @@
+git init - to initialize the git in local machine
+git clone - to clone the git reposetory into the local machine
