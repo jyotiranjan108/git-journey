@@ -1,2 +1,12 @@
 git init - to initialize the git in local machine
 git clone - to clone the git reposetory into the local machine
+
+git add --all
+git add * 
+git add A
+
+git commit -m "text"
+git status
+git reset
+git add .
+git 
