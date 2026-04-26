@@ -1,12 +1,15 @@
 git init - to initialize the git in local machine
 git clone - to clone the git reposetory into the local machine
 
-git add --all
+git add --all - stages to the whole repo inside and outside the current folder
 git add * 
-git add A
+git add -A - stages to the whole repo inside and outside the current folder
 
 git commit -m "text"
 git status
 git reset
-git add .
-git 
+git add . -stages only the current folder and downwards (sub folders)
+git rm one.txt - delete and automatically moves to the staging area( but if not commited then will not delete)
+git rm -f one.txt(not committed but want to delete) - will commit and delete the one.txt
+git rm --cashed - will only remove from the staging area.
+git rm -r <folder> - the folder will be removed from the staging area
