@@ -13,3 +13,8 @@ git rm one.txt - delete and automatically moves to the staging area( but if not 
 git rm -f one.txt(not committed but want to delete) - will commit and delete the one.txt
 git rm --cashed - will only remove from the staging area.
 git rm -r <folder> - the folder will be removed from the staging area
+
+git branch - shows the current branch
+git branch <new branch> - create the new branch
+git checkout <branch> - swith to the mentioned branch
+git merge <branch want to merge> - merges the currect branch with the mentioned branch
